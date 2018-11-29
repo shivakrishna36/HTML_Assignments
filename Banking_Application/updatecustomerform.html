@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Update Customer Form</title>
@@ -7,9 +8,7 @@
             margin-bottom: 350px;
         }
             
-            header{
-                background-color: lightcoral;
-            }
+           
             nav{
                 background-color: lightblue;
                 float: left;
@@ -23,6 +22,7 @@
             }
             a {
     display: block;
+    text-decoration: none;
     padding: 5px;
     background-color: lightblue;
             }
@@ -33,14 +33,19 @@
             .b{
                 padding: 31px;
             }
+            body{
+             
+             background-size: cover;
+             background-repeat: no-repeat;
+         }
             .a{
                 float: left;
               
             };
         </style>
-    <body align ="center">
+    <body align ="center"  background="C:\ShivaKrishna\HTML_Assignments\Banking_Application\images\viewall.jpg">
             <header>
-                    <div   class="a"><img src="C:\ShivaKrishna\HTML_Assignments\Banking_Application\images\icici.jfif" height="20%"></div>
+                    <div   class="a"><img src="C:\ShivaKrishna\HTML_Assignments\Banking_Application\images\icici.jfif" width="200%"></div>
                             <div class="b"><center><h1>ICICI BANK</h1></center> </div>
                          </header>
                          <nav>
@@ -60,16 +65,18 @@
                          <section>
         <form>
             <center><h1>Customer Updating Form</h1></center>
-            <table align="center">
+            <center>
+            <table align="left">
                     <tr><td> CustomerId :</td><td><input type="number" value="154238" readonly/></td></tr>
                     <tr><td> CustomerName :</td><td><input type="text" value="name" readonly/ ></td></tr>
                     <tr><td> AccountNumber :</td><td><input type="number" value="123456789" readonly/></td></tr>
            <tr> <td>EmailId:</td> <td> <input type="email" value="xyz@gmail.com"readonly/></td></tr>
             <tr><td>DateOfBirth: </td><td><input type="date"  value="1999-04-24" readonly/></td></tr>
             <tr><td>PhoneNumber:</td> <td><input type="number" value="1239874560" readonly/></td></tr>
+            <tr><Td><input type="submit" value="edit"></Td></tr>
             </table>
-            <center><input type="submit" value="edit"></center>
-        </form>
+        </center>
+            
     </section>
         <footer>
                 Copy right © 2018 ICICI Bank Ltd. All Rights Reserved

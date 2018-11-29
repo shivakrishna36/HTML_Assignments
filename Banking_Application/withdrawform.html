@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>WITHDRAW FORM</title>
@@ -7,9 +8,7 @@
             margin-bottom: 350px;
         }
             
-               header{
-                background-color: lightcoral;
-            }
+              
             .b{
                 padding: 35px;
             }
@@ -24,8 +23,14 @@
     padding: 0;
    
             }
+            body{
+             
+             background-size: cover;
+             background-repeat: no-repeat;
+         }
             a {
     display: block;
+    text-decoration: none;
     padding: 5px;
     background-color: lightblue;
             }
@@ -38,9 +43,9 @@
               
             };
        </style>
-    <body align="center">
-            <header>
-                    <div   class="a"><img src="C:\ShivaKrishna\HTML_Assignments\Banking_Application\images\icici.jfif" height="20%"></div>
+    <body align="center" background="C:\ShivaKrishna\HTML_Assignments\Banking_Application\images\viewall.jpg">
+            <header style="margin-bottom: -10px;">
+                    <div   class="a"><img src="C:\ShivaKrishna\HTML_Assignments\Banking_Application\images\icici.jfif" width="200%"></div>
                             <div class="b"><center><h1>ICICI BANK</h1></center> </div>
                          </header>
                          <nav>
@@ -61,6 +66,10 @@
         <center><h1>Withdraw Form</h1></center>
         <table>
             <tr><td>Account No :</td><td><input type="number"></td></tr>
+            <tr>
+                    <td>IFSC CODE :</td>
+                    <td><input type="text"></td>
+                </tr>
             <tr><td>Amount to Withdraw :</td><td><input type="number"></td></tr>
             <tr><td><input type="submit" value="OK"></td></tr>
         </table>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>
@@ -9,9 +10,7 @@
             margin-bottom: 350px;
         }
             
-               header{
-                background-color: lightcoral;
-            }
+             
             nav{
                 background-color: lightblue;
                 float: left;
@@ -23,9 +22,15 @@
     padding: 0;
    
             }
+            body{
+             
+             background-size: cover;
+             background-repeat: no-repeat;
+         }
             a {
     display: block;
     padding: 5px;
+    text-decoration: none;
     background-color: lightblue;
             }
             li {
@@ -40,9 +45,9 @@
               
             };
        </style>
-    <body align="center"> 
+    <body align="center" background="C:\ShivaKrishna\HTML_Assignments\Banking_Application\images\viewall.jpg"> 
             <header>
-                    <div   class="a"><img src="C:\ShivaKrishna\HTML_Assignments\Banking_Application\images\icici.jfif" height="20%"></div>
+                    <div   class="a"><img src="C:\ShivaKrishna\HTML_Assignments\Banking_Application\images\icici.jfif" width="200%"></div>
                             <div class="b"><center><h1>ICICI BANK</h1></center> </div>
                          </header>
                          <nav>
@@ -61,12 +66,15 @@
                                          </nav>
                          <section>
         <center><h1>Fund Transfer</h1></center>
-            <table>
-                    <tr><td>From Account No :</td><td><input type="number"></td></tr>
-                    <tr><td>To Account No :</td><td><input type="number"></td></tr>
+        <center>
+            <table align="left">
+                    <tr><td>From Account No :</td><td><input type="text"></td></tr>
+                    <tr><td>IFSC CODE :</td><td><input type="text"></td></tr>
+                    <tr><td>To Account No :</td><td><input type="text"></td></tr>
                     <tr><td>Amount to transfer:</td><td><input type="number"></td></tr>
                     <tr><td><input type="submit" value="Transfer"></td></tr>
                 </table>
+            </center>
             </section>
                 <footer>
                         Copy right © 2018 ICICI Bank Ltd. All Rights Reserved
